@@ -27,20 +27,23 @@
         {
             "Id": 1,
             "Descr": "Plano Prata",
+            "Modalidade": "Mensal"
             "Serviços": "Musculação",
-            "Valor": "$119,00"
+            "Valor": 119.00
         },
         {
             "Id": 2,
             "Descr": "Plano Ouro",
-            "Serviços": "Musculação + 1 aula coltiva",
-            "Valor": "$139,90"
+            "Modalidade": "Mensal"
+            "Serviços": ["Musculação","Aula coltiva"]
+            "Valor": 139.00
         },
         {
             "Id": 3,
             "Descr": "Plano Club+",
-            "Serviços": "Musculação + todas as aulas coletiva e beneficios",
-            "Valor": "$588,00"
+            "Modalidade": "Anual"
+            "Serviços": ["Musculação", "Todas as aulas coletiva", "Beneficios"]
+            "Valor": 588.00
             
         }
     ],
@@ -51,21 +54,21 @@
                 "Produto": "Whey protein",
                 "Marca":"Integralmedica",
                 "quantidade":"900g",
-                "Valor": "$159.90" 
+                "Valor": 159.90
             },
             {
                 "Id": 2,
                 "Produto": "Creatina",
                 "Marca":"Max Titanium",
                 "quantidade":"150g",
-                "Valor": "$99,99" 
+                "Valor": 99.99
             },
             {
                 "Id": 3,
                 "Produto": "Pré treino",
                 "Marca":"Darkness",
                 "quantidade":"300g",
-                "Valor":"$129,90" 
+                "Valor":129.90 
             }
     ]
 
