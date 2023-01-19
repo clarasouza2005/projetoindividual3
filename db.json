@@ -5,21 +5,24 @@
         "Nome": "Jonatan da Silva Mendes",
         "Data de nascimento": "22/09/2003",
         "Email": "jonmendes7803@gmail.com",
-        "Telefone":"(21) 99534-5107"
+        "Telefone":"(21) 99534-5107",
+         "Senha":"12345678"
       },
       {
         "Id": 2,
         "Nome": "Thiago lessa da Silva",
         "Data de nascimento": "20/01/2003",
         "Email": "thiaguinholessa@gmail.com",
-        "Telefone": "(21) 98026-4031"
+        "Telefone": "(21) 98026-4031",
+         "Senha":"12345678"
       },
       {
         "Id": 3,
         "Nome": "Camila Roberta Marques",
         "Data de nascimento": "20/05/2000",
         "Email": "camilamarquesserafim@gmail.com",
-        "Telefone": "(21) 98124-2316"
+        "Telefone": "(21) 98124-2316",
+         "Senha":"12345678"
       }
     ],
 
@@ -27,22 +30,22 @@
         {
             "Id": 1,
             "Descr": "Plano Prata",
-            "Modalidade": "Mensal"
-            "Serviços": "Musculação",
+            "Modalidade": "Mensal",
+            "Serviços": ["Musculação"],
             "Valor": 119.00
         },
         {
             "Id": 2,
             "Descr": "Plano Ouro",
-            "Modalidade": "Mensal"
-            "Serviços": ["Musculação","Aula coltiva"]
+            "Modalidade": "Mensal",
+            "Serviços": ["Musculação","Aula colEtiva"],
             "Valor": 139.00
         },
         {
             "Id": 3,
             "Descr": "Plano Club+",
-            "Modalidade": "Anual"
-            "Serviços": ["Musculação", "Todas as aulas coletiva", "Beneficios"]
+            "Modalidade": "Anual",
+            "Serviços": ["Musculação", "Todas as aulas coletiva", "Beneficios"],
             "Valor": 588.00
             
         }
